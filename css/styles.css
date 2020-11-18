@@ -230,3 +230,206 @@ video {
   color: white;
   padding: 0 1rem 1rem 1rem;
 }
+
+/* Footer Nav Extra Styles*/
+.footer-logo {
+
+  white-space: nowrap;
+
+}
+
+ 
+
+.footer-social {
+
+  display: flex;
+
+  justify-content: center;
+
+  padding-top: 3rem;
+
+}
+
+ 
+
+.footer-social a {
+
+  color: black;
+
+  padding: 0 1rem;
+
+}
+
+ 
+
+.footer-copyright {
+
+  text-align: center;
+
+  padding-bottom: 6rem;
+
+}
+
+ 
+
+/* Add Medida Queries for large Screens */
+
+ 
+
+@media (min-width: 600px) {
+
+  .nav-bar {
+
+    line-height: 1.5rem;
+
+  }
+
+  .nav-menu {
+
+    padding: 0 1rem;
+
+  }
+
+  .nav-item {
+
+    flex: 1 1;
+
+  }
+
+  .hero-nav {
+
+    padding-bottom: 1rem;
+
+  }
+
+  .hero-heading {
+
+    font-size: 4rem;
+
+    line-height: 4rem;
+
+  }
+
+  .hero-text-box {
+
+    padding: 2rem;
+
+  }
+
+  .hero-text {
+
+    font-size: 2rem;
+
+    line-height: 2rem;
+
+  }
+
+  .about-page {
+
+    grid-template-columns: 1fr 1fr;
+
+    grid-gap: 1rem;
+
+  }
+
+  .about-text h1 {
+
+    font-size: 3rem;
+
+    line-height: 3rem;
+
+  }
+
+  .about-text p {
+
+    font-size: 1.1rem;
+
+    line-height: 1.5rem;
+
+  }
+
+  .footer-nav {
+
+    padding-top: 2rem;
+
+  }
+
+  .footer-logo {
+
+    flex-basis: 100%;
+
+  }
+
+}
+
+ 
+
+@media (min-width: 920px) {
+
+  body {
+
+    max-width: 1400px;
+
+  }
+
+  .hero-body {
+
+    max-width: unset;
+
+  }
+
+  .nav-bar {
+
+    justify-content: space-between;
+
+    padding: 1rem 0;
+
+    margin: 1rem auto 2rem auto;
+
+    line-height: 1rem;
+
+  }
+
+  .nav-menu {
+
+    width: auto;
+
+    justify-self: end;
+
+  }
+
+  .logo {
+
+    margin: 0 0 0 0.3rem;
+
+    justify-self: start;
+
+  }
+
+  .hero-nav {
+
+    width: 100%;
+
+  }
+
+  .about-text h1 {
+
+    font-size: 4rem;
+
+    line-height: 4rem;
+
+  }
+
+ 
+
+  .about-text p {
+
+    font-size: 1.5rem;
+
+    line-height: 2rem;
+
+  }
+
+  .footer-nav {
+
+    justify-content: space-evenly;
