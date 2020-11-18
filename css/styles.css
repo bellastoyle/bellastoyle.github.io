@@ -166,23 +166,23 @@ video {
   letter-spacing: 0.05rem;
   font-weight: bold;
   text-transform: uppercase;
-  color: white;
+  color: lavenderblush;
 }
 
 .hero-text {
   font-size: 1rem;
   margin-top: 0.5rem;
-  color: white;
+  color: lavenderblush;
 }
 
 .hero-button {
   display: inline-block;
   padding: 0.75rem 2rem;
   background: none;
-  color: white;
+  color: lavenderblush;
   font-size: 1.2rem;
   font-weight: bold;
-  border: 1px solid white;
+  border: 1px solid lavenderblush;
   border-radius: 5px;
   margin-top: 2rem;
 }
@@ -227,7 +227,7 @@ video {
 }
 
 .about-social a {
-  color: white;
+  color: black;
   padding: 0 1rem 1rem 1rem;
 }
 
@@ -318,12 +318,9 @@ video {
   }
 }
 
- 
-
 @media (min-width: 920px) {
   body {
     max-width: 1400px;
-
   }
 
   .hero-body {
@@ -353,31 +350,22 @@ video {
   }
 
   .hero-nav {
-
     width: 100%;
-
   }
 
   .about-text h1 {
-
     font-size: 4rem;
 
     line-height: 4rem;
-
   }
 
- 
-
-.about-text p {
-
+  .about-text p {
     font-size: 1.5rem;
 
     line-height: 2rem;
-
   }
 
   .footer-nav {
-
     justify-content: space-evenly;
   }
 }
