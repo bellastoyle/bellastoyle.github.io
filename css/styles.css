@@ -231,7 +231,15 @@ video {
   color: black;
   padding: 0 1rem 1rem 1rem;
 }
+/* Begin Grid Gallery Styles*/
+.gallery-page {
+  padding: 0 1rem 10rem 1rem;
+}
 
+.portfolio-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
 /* Footer Nav Extra Styles*/
 .footer-logo {
   white-space: nowrap;
