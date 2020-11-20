@@ -202,19 +202,19 @@ video {
   display: grid;
   grid-template-columns: 1fr;
   height: 100%;
-  background-color: black;
+  background-color: white;
 }
 
 .about-text {
   margin: 0 auto;
-  color: white;
+  color: black;
   font-size: auto;
 }
 
 .about-text h1 {
   font-size: 2rem;
   line-height: 2rem;
-  color: white;
+  color: black;
 }
 
 .about-image img {
