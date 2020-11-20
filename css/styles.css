@@ -281,6 +281,7 @@ video {
 .h-6 {
   grid-row: span 1;
 }
+
 /* Footer Nav Extra Styles*/
 .footer-logo {
   white-space: nowrap;
